@@ -4,16 +4,16 @@ init -990 python:
         author="inmakrokeyt Rai99 Darkskull Dawn Zenith and Booplicate",
         name="Detector de Just Yuri",
         description="¿Recuerdas cómo Just Yuri detecta Monika After Story? Ahora, ¡este submod hace lo contrario!",
-        version="1.1.0"
+        version="1.1.1"
     )
 
 # Register the updater
 init -989 python:
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
         store.sup_utils.SubmodUpdater(
-            submod="Just Yuri Detection",
-            user_name="DarkDawnZenith",
-            repository_name="jy-detection",
+            submod="Detector de Just Yuri",
+            user_name="DEV-MA",
+            repository_name="MAS_SUBDetector-JY",
             update_dir=""
         )
 
